@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Igra_u" directorySegmentName="seg_0" id="AA76BEB8-17CD-8311-4854-AC2767D3FA85">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:01:26 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="D9621194-B54E-96A7-4621-FD8A58AC5E46" value="true"/>
+</engineerTo>
+<sourcePk>BA0AB010-F49E-DD36-2464-ACC21A33A9BA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00F254C8-6218-5A00-2415-5E070918B285</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32AD0B88-17E4-CCF1-019F-659080D86A33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

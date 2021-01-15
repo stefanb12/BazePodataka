@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79F350BC-8B12-4EF5-028B-732F2864C356" name="Ekonom">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:27:50 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6DCC05B8-FC2A-E483-E7BF-096182BEF657</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OZN_STD" id="9D4E6E39-2FC1-5D4D-FA56-572221C79D7F">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:00:29 UTC</createdTime>
+<generatorID>077EF997-4E87-FD01-6A9D-F8BAAAB437C2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>B2FC25A8-0026-6BDB-07DD-9ADFE7530763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

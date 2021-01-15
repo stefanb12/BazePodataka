@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sadrži" directorySegmentName="seg_0" id="F0CC0E74-AE62-7A2B-3409-2CA78E2E3970">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:21:52 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<sourcePk>0F63A32D-7916-42A9-1E63-A51C59727CBF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00E86175-1E9C-AB90-F28C-74D620C1B172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4FE3ECA-8CAF-3248-15F6-AAB42DD29DB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

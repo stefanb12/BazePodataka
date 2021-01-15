@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00F254C8-6218-5A00-2415-5E070918B285" name="Igrač">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:26:30 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MBR_IGR" id="918270B7-5E8C-D010-54F7-0F0F9181341C">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:58:15 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME_IGR" id="FFDED355-B98C-C902-E1BB-96D8601AC155">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:58:33 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRZ_IGR" id="BD9620FB-82C0-DDEA-0CBC-AD3253C0738F">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:58:44 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATRODJ_IGR" id="194D90B2-3F0C-44A9-0C5E-B7D8B88CC61E">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:59:01 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA0AB010-F49E-DD36-2464-ACC21A33A9BA" name="Igrač PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:58:32 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>918270B7-5E8C-D010-54F7-0F0F9181341C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

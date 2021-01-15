@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DCC05B8-FC2A-E483-E7BF-096182BEF657" name="Zaposleni">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:26:18 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MBR_ZAP" id="89EE34D8-71A6-4E07-477C-835FB9988020">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:46:16 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME_ZAP" id="A04A523F-6565-7205-F728-3CCB8F6CDE5F">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:46:55 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRZ_ZAP" id="E0B88D7A-1335-DA8B-D74C-3A908B16EC67">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:47:07 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIP_ZAP" id="69BD8E82-F4BB-B564-7762-EF9221831EAE">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:47:34 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<domain>5E14E1E9-D8C5-A299-5798-48BD028A5CE8</domain>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVBR_KLB" id="B6E7EC84-67E5-5D4C-0A7B-12017E7E8406">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:09 UTC</createdTime>
+<generatorID>9E2F5FE9-100A-271B-9454-BBE4569F4401</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>83203FCC-F5CE-68BF-4F2A-581D62E3E1E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9767333F-20E9-372B-D537-85B4A16EA582" name="Zaposleni PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:34:38 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89EE34D8-71A6-4E07-477C-835FB9988020</attributeRef>
+<attributeRef>B6E7EC84-67E5-5D4C-0A7B-12017E7E8406</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B988A61-D210-CDA5-0C95-1546CB599655" name="Liga">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:26:55 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OZN_LIG" id="9C4A190A-18BB-3BE2-EB6F-94710D13A568">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:06:52 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZ_LIG" id="04B2F445-6604-19F4-C97A-2A58B9FBB8C0">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:07:07 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RANG_LIG" id="00035B01-46E0-BA9B-271B-064CE0510F60">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:07:18 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_KAT" id="C12F0B63-CF55-E210-1A14-13C5FA1BE7F1">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:47 UTC</createdTime>
+<generatorID>3EE9FCD8-B0D0-FFD8-8C88-192727E73329</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>2C0540B1-B7BE-B45F-B6A9-52E7E374231A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E52BA46C-CC64-4997-8FC8-30D8EB326F67" name="Liga PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:07:05 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C4A190A-18BB-3BE2-EB6F-94710D13A568</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB9D5274-7033-C0BE-9CBD-33A1A12E9228" name="Utakmica">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:27:00 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OZN_UTK" id="5FFF3B77-A95B-0E1F-2D6A-847B1F45B52A">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:09:49 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RBR_KOLA" id="75928D34-5DF6-F074-D505-3D22C88821B4">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:10:33 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_UTK" id="D777FB4D-3382-1406-559C-B3F696E4164B">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:10:02 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POČ_UTK" id="96005DDB-E72B-6959-CB92-45C74E5B4F27">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:38:26 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_LIG" id="B0CC2C9F-E56D-435A-75E4-A9518B2B375C">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:00:05 UTC</createdTime>
+<generatorID>16CE8C5D-B51F-E42B-E9FB-8F7889717C43</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>9C4A190A-18BB-3BE2-EB6F-94710D13A568</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_STD" id="E19A84E3-49A5-A20C-BD4C-3E99B68D29B2">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:00:29 UTC</createdTime>
+<generatorID>AE5E95C2-10AA-2691-C640-0DB8FEEF6489</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>B2FC25A8-0026-6BDB-07DD-9ADFE7530763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ED7800D-9BAE-8E58-6157-696D45807B0E" name="Utakmica PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:10:01 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FFF3B77-A95B-0E1F-2D6A-847B1F45B52A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

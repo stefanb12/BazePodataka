@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE23AB14-4036-AF23-D894-6492F2F3633C" name="Lečenje">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:25:08 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LEČ" id="54E5794B-6FAF-291E-9D56-96F3E2D44700">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:25:21 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POČDAT_LEČ" id="9B253F68-208B-7481-680A-B59AC0AE7B98">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:25:37 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KRAJDAT_LEČ" id="EE0A8BE1-2F45-D9D4-595D-11D27133B876">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:25:48 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBR_IGR" id="981F93E3-1002-1168-1776-C248D69D4F07">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:33:24 UTC</createdTime>
+<generatorID>72EE04FE-783C-AC05-DE10-C73394745332</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>918270B7-5E8C-D010-54F7-0F0F9181341C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POV" id="D540564F-49CF-E59D-DC19-32100592BE89">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:30:37 UTC</createdTime>
+<generatorID>F5CFDED7-AAE0-B300-F348-1DB8BEF2037B</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>4084AA5A-E11B-5CF7-0E10-266C23A20AC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70EA22EF-1DE1-35E1-E7A4-DE6838F8FBE1" name="Lečenje PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:25:35 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54E5794B-6FAF-291E-9D56-96F3E2D44700</attributeRef>
+<attributeRef>981F93E3-1002-1168-1776-C248D69D4F07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

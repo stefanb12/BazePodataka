@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Igrač_pripada" directorySegmentName="seg_0" id="81E870AC-1493-C0A9-4569-2CD055CD39CB">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:05:49 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<sourcePk>AE26CF51-3CE5-9AA0-1D45-DD5C6CEB3924</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A761840-320A-A65C-92DF-D5E88A592777</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32AD0B88-17E4-CCF1-019F-659080D86A33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

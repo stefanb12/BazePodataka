@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32AD0B88-17E4-CCF1-019F-659080D86A33" name="Ugovor_igrača">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:27:56 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UG" id="01FA1870-1EC1-D72A-9AAA-A888CA4405EB">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:24:39 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POČDAT_UG" id="34ADE17F-4526-9CA5-4FC6-CEAC5A6714D8">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:59:42 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KRAJDAT_UG" id="6B78BC59-7245-A435-9B7A-306F3A9D4D58">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:00:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBR_IGR" id="1D39625C-6AFD-5483-FFFE-FF87A8AF203D">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:01:26 UTC</createdTime>
+<generatorID>AA76BEB8-17CD-8311-4854-AC2767D3FA85</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>918270B7-5E8C-D010-54F7-0F0F9181341C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVBR_KLB" id="F6B2BB79-85A6-6756-C374-1E34133A5BA5">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:09 UTC</createdTime>
+<generatorID>AEA25086-5379-FAF3-E253-E6ACC41ADB9C</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>83203FCC-F5CE-68BF-4F2A-581D62E3E1E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVBR_TIM" id="E4DDCFF7-F7E6-AE8E-E41F-AC7B224B4E59">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:30 UTC</createdTime>
+<generatorID>12651030-092A-6D4F-9555-AC4672644604</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>1F3A159E-101F-F88D-7A78-04D443A11E73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_KAT" id="5E4E7F88-5A02-5965-48A1-DCC2FD7B0797">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:47 UTC</createdTime>
+<generatorID>81E870AC-1493-C0A9-4569-2CD055CD39CB</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>2C0540B1-B7BE-B45F-B6A9-52E7E374231A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC4C774A-497A-5B5B-9C0E-7A3FF60BF2F2" name="Ugovor_igrača PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:00:57 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D39625C-6AFD-5483-FFFE-FF87A8AF203D</attributeRef>
+<attributeRef>01FA1870-1EC1-D72A-9AAA-A888CA4405EB</attributeRef>
+<attributeRef>F6B2BB79-85A6-6756-C374-1E34133A5BA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

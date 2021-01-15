@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4FE3ECA-8CAF-3248-15F6-AAB42DD29DB2" name="Tim">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:26:50 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EVBR_TIM" id="1F3A159E-101F-F88D-7A78-04D443A11E73">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:52:47 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVBR_KLB" id="5002D302-8F34-1C83-6B7D-B11CEAD47956">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:09 UTC</createdTime>
+<generatorID>F0CC0E74-AE62-7A2B-3409-2CA78E2E3970</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>83203FCC-F5CE-68BF-4F2A-581D62E3E1E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_KAT" id="2841EF4A-B260-BADF-54CE-950EF8398F72">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 12:59:47 UTC</createdTime>
+<generatorID>873AC9F0-0928-97D1-92D2-754D81A06A72</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<referedAttribute>2C0540B1-B7BE-B45F-B6A9-52E7E374231A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BE01376-F907-F621-0B7F-AABB1797265B" name="Tim PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 00:52:58 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F3A159E-101F-F88D-7A78-04D443A11E73</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

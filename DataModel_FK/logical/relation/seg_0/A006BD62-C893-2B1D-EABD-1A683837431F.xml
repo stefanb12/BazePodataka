@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tim_domaćin" directorySegmentName="seg_0" id="A006BD62-C893-2B1D-EABD-1A683837431F">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:18:13 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="D9621194-B54E-96A7-4621-FD8A58AC5E46" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5898F634-49BE-A572-F938-CBFF35CC4C5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB9D5274-7033-C0BE-9CBD-33A1A12E9228</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="BRGOL_DOM" id="F687A67D-A4B6-0B79-6D38-F08DCE8BD76E">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:18:33 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="D9621194-B54E-96A7-4621-FD8A58AC5E46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

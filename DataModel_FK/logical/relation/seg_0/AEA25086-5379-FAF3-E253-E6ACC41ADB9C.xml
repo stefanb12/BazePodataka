@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ima_igrača" directorySegmentName="seg_0" id="AEA25086-5379-FAF3-E253-E6ACC41ADB9C">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-14 01:00:49 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<engineerTo>
+<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+</engineerTo>
+<sourcePk>0F63A32D-7916-42A9-1E63-A51C59727CBF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00E86175-1E9C-AB90-F28C-74D620C1B172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32AD0B88-17E4-CCF1-019F-659080D86A33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

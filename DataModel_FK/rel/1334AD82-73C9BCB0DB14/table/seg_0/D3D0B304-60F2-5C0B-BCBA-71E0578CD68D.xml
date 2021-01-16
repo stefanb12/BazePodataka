@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3D0B304-60F2-5C0B-BCBA-71E0578CD68D" name="Tim">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>F4FE3ECA-8CAF-3248-15F6-AAB42DD29DB2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVBR_TIM" id="0339061C-40EB-1301-3AA0-DA55A7295BAA">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>1F3A159E-101F-F88D-7A78-04D443A11E73</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVBR_KLB" id="C8EE301F-F936-92F2-2F9B-E8C7838FB4F7">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>5002D302-8F34-1C83-6B7D-B11CEAD47956</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94511099-6918-816D-9F9B-F2364A12B140" referredColumn="D8C3727E-731C-8500-FD64-327EEB448FFE"/>
+</associations>
+</Column>
+<Column name="OZN_KAT" id="0EF5D62F-0ED9-701A-0461-321AE93713D4">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>2841EF4A-B260-BADF-54CE-950EF8398F72</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6584A2EE-7A0C-8775-36A4-AE363E36E39A" referredColumn="E836D5EC-FB50-8EC6-C55B-9B4A1E0FFEB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AFC25B2-7830-A011-DD70-9607B9A507B3" name="Tim_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>9BE01376-F907-F621-0B7F-AABB1797265B</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0339061C-40EB-1301-3AA0-DA55A7295BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6E7A5DF-741D-7CCE-C5FA-C91B8996724A" name="Tim_Kategorija_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>873AC9F0-0928-97D1-92D2-754D81A06A72</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EF5D62F-0ED9-701A-0461-321AE93713D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="230A093A-845F-9790-FA5A-4A259C7A09B2" name="Tim_Fudbalski_klub_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>F0CC0E74-AE62-7A2B-3409-2CA78E2E3970</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8EE301F-F936-92F2-2F9B-E8C7838FB4F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

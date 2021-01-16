@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="973CCA17-2F0D-B906-E6AD-65573EF5324B" name="Lekar">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>342C8427-A80A-3FA0-81FC-C782232E7E58</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR_ZAP" id="7DC9E15B-F1C2-1AC5-EEE4-081D61A1BD85">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>89EE34D8-71A6-4E07-477C-835FB9988020</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27F953CD-47F1-22B9-EA77-1B6A467BDCB0" referredColumn="473972B8-8AD1-0807-2C0D-BDC8CDC546B9"/>
+</associations>
+</Column>
+<Column name="BR_LIC" id="A2D50398-8A2E-2066-EC44-B9E0146F3E89">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>96DE7A38-F4E8-EDBA-8D37-78FAC9386DA3</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVBR_KLB" id="0B932DA6-8AB8-D728-151C-B9AE0E1C5B32">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>B6E7EC84-67E5-5D4C-0A7B-12017E7E8406</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27F953CD-47F1-22B9-EA77-1B6A467BDCB0" referredColumn="9AD79974-DDF1-CC2B-B44A-BC5F7F463DCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D213DE5-A751-DD36-7720-ED2133AAAE16" name="Lekar_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>9767333F-20E9-372B-D537-85B4A16EA582</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC9E15B-F1C2-1AC5-EEE4-081D61A1BD85"/>
+<colUsage columnID="0B932DA6-8AB8-D728-151C-B9AE0E1C5B32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EC994E6-3E83-4293-8F38-50151E522861" name="Lekar_Zaposleni_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>59C1AA3C-83E8-FD5C-947C-EF99421A1114</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC9E15B-F1C2-1AC5-EEE4-081D61A1BD85"/>
+<colUsage columnID="0B932DA6-8AB8-D728-151C-B9AE0E1C5B32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

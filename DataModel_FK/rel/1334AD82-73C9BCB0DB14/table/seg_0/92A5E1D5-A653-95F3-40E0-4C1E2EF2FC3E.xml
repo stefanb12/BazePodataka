@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92A5E1D5-A653-95F3-40E0-4C1E2EF2FC3E" name="Utakmica">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>CB9D5274-7033-C0BE-9CBD-33A1A12E9228</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OZN_UTK" id="051F3491-3127-8F26-6F57-C67D8E8D6B7F">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>5FFF3B77-A95B-0E1F-2D6A-847B1F45B52A</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RBR_KOLA" id="E88089A3-DA8D-441A-97DD-DC032B9E3569">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>75928D34-5DF6-F074-D505-3D22C88821B4</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_UTK" id="0D0274B5-3B39-4C44-DE42-B790979610FF">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>D777FB4D-3382-1406-559C-B3F696E4164B</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OZN_LIG" id="43816CDC-42BD-3A9A-361E-79A1329EF38B">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>B0CC2C9F-E56D-435A-75E4-A9518B2B375C</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0DB6DE6-B8A8-B1B0-941A-C63DE4B2EEE3" referredColumn="BAC1E72E-FBAF-E8EA-8F92-89549F12FD69"/>
+<colAssociation fkAssociation="7C91F8D4-A6CC-B361-A850-B708331AA5CF" referredColumn="781453D4-0DF5-E0DE-BB87-D26F0772E53A"/>
+<colAssociation fkAssociation="9F36290A-4A94-FBFC-9F68-DB4EA2CAD0D2" referredColumn="781453D4-0DF5-E0DE-BB87-D26F0772E53A"/>
+</associations>
+</Column>
+<Column name="OZN_STD" id="2137BABF-AFCA-4F4F-4D7D-469C27D0A855">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>E19A84E3-49A5-A20C-BD4C-3E99B68D29B2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F300B01-46B4-26E0-DB17-20D3B8F9F0E1" referredColumn="144F0912-7969-492E-0D38-0B0837D81761"/>
+</associations>
+</Column>
+<Column name="BRGOL_DOM" id="07A8E4FD-462A-D5A0-6CEA-88B2C6A6D7F5">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>F687A67D-A4B6-0B79-6D38-F08DCE8BD76E</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7C91F8D4-A6CC-B361-A850-B708331AA5CF</dependOnForeignKeyID>
+</Column>
+<Column name="BRGOL_GOST" id="02C56029-E400-867F-2523-49C3A21E6B29">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>952C5987-C3DD-80F7-B743-FF91CE9C6056</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9F36290A-4A94-FBFC-9F68-DB4EA2CAD0D2</dependOnForeignKeyID>
+</Column>
+<Column name="EVBR_TIMD" id="7C3A88FE-7706-A8C9-17B4-CE5C32D320CB">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:37:11 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C91F8D4-A6CC-B361-A850-B708331AA5CF" referredColumn="68802E7F-E959-054C-35C9-FDD13D11B62C"/>
+</associations>
+</Column>
+<Column name="EVBR_TIMG" id="1661C851-8539-0A55-3FE1-CE01DFC57EED">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:37:11 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F36290A-4A94-FBFC-9F68-DB4EA2CAD0D2" referredColumn="68802E7F-E959-054C-35C9-FDD13D11B62C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7CF8470-33EF-9B6C-12AE-E58C66A05B41" name="Utakmica_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>8ED7800D-9BAE-8E58-6157-696D45807B0E</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="051F3491-3127-8F26-6F57-C67D8E8D6B7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF23C11C-30F8-90FA-0DBE-7C402DB5BDB3" name="Utakmica_Stadion_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>AE5E95C2-10AA-2691-C640-0DB8FEEF6489</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2137BABF-AFCA-4F4F-4D7D-469C27D0A855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA692180-F33B-3BF0-DE47-31EECA7CE820" name="Utakmica_Liga_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>16CE8C5D-B51F-E42B-E9FB-8F7889717C43</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43816CDC-42BD-3A9A-361E-79A1329EF38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4624DAD-8DE4-C568-8FA4-269DD366998B" name="Utakmica_Učestvuje_FKD">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>A006BD62-C893-2B1D-EABD-1A683837431F</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3A88FE-7706-A8C9-17B4-CE5C32D320CB"/>
+<colUsage columnID="43816CDC-42BD-3A9A-361E-79A1329EF38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F7DD2BB-3298-3789-25E0-9D0756837F75" name="Utakmica_Učestvuje_FKG">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>0595FD43-9F20-7FE5-8A2C-928098664FA8</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1661C851-8539-0A55-3FE1-CE01DFC57EED"/>
+<colUsage columnID="43816CDC-42BD-3A9A-361E-79A1329EF38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

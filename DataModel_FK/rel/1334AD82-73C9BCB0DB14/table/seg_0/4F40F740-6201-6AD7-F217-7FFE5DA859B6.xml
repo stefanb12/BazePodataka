@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F40F740-6201-6AD7-F217-7FFE5DA859B6" name="Leči">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<ordsAlias>leci</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR_ZAP" id="C91C7BAE-5D8A-0E27-26A9-BC20F057F0C9">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9965837B-9070-870A-B83F-151554AC1CCD" referredColumn="7DC9E15B-F1C2-1AC5-EEE4-081D61A1BD85"/>
+</associations>
+</Column>
+<Column name="EVBR_KLB" id="FF2A44E2-EB33-F1F5-2B36-EB942E40BF5E">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9965837B-9070-870A-B83F-151554AC1CCD" referredColumn="0B932DA6-8AB8-D728-151C-B9AE0E1C5B32"/>
+</associations>
+</Column>
+<Column name="ID_LEČ" id="947F50C7-80CF-A206-94B5-7E249731A72E">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98367C6B-AF08-D308-2451-CE55CE15AB5E" referredColumn="916A8D0E-C8F6-2ECF-AEAA-9C67B8F72692"/>
+</associations>
+</Column>
+<Column name="MBR_IGR" id="8DB3287B-9526-DE2F-9066-395F51C2340B">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98367C6B-AF08-D308-2451-CE55CE15AB5E" referredColumn="84087AA1-4BC1-A9BF-B386-9C78B3274168"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48DD05E5-F0A3-8191-041A-AED7C469957C" name="Leči_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C91C7BAE-5D8A-0E27-26A9-BC20F057F0C9"/>
+<colUsage columnID="FF2A44E2-EB33-F1F5-2B36-EB942E40BF5E"/>
+<colUsage columnID="947F50C7-80CF-A206-94B5-7E249731A72E"/>
+<colUsage columnID="8DB3287B-9526-DE2F-9066-395F51C2340B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B44CF051-DB88-D512-D99B-F8D232CBEF7F" name="Leči_Lekar_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>1E757258-0106-EA83-D620-08545F8872BB</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C91C7BAE-5D8A-0E27-26A9-BC20F057F0C9"/>
+<colUsage columnID="FF2A44E2-EB33-F1F5-2B36-EB942E40BF5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="237143D5-1598-FB57-B42A-C574456BEB29" name="Leči_Lečenje_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>1E757258-0106-EA83-D620-08545F8872BB</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="947F50C7-80CF-A206-94B5-7E249731A72E"/>
+<colUsage columnID="8DB3287B-9526-DE2F-9066-395F51C2340B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

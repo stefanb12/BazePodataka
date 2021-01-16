@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B052D65-45A2-6DB1-FBF7-974014AA9339" name="Trenira">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR_ZAP" id="2EC963E9-E70C-4C40-05F8-615C1C5D8E79">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E9E7039-5E5B-7359-4A3D-140314E510D1" referredColumn="73628E7A-BF0F-1A80-F176-ED73028C26CE"/>
+</associations>
+</Column>
+<Column name="EVBR_KLB" id="97767D12-F14E-C70F-234D-5D0C58D841D7">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E9E7039-5E5B-7359-4A3D-140314E510D1" referredColumn="EE9BD1D7-5C91-1322-D4DA-70BECD8DFC40"/>
+</associations>
+</Column>
+<Column name="EVBR_TIM" id="4B521D4C-ED2F-E189-F623-238AB3197860">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E11C22AE-75A5-0E17-4290-160D82EB170A" referredColumn="0339061C-40EB-1301-3AA0-DA55A7295BAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B78E3BB-ABB6-3E3A-AC8C-8A71B7372F47" name="Trenira_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC963E9-E70C-4C40-05F8-615C1C5D8E79"/>
+<colUsage columnID="97767D12-F14E-C70F-234D-5D0C58D841D7"/>
+<colUsage columnID="4B521D4C-ED2F-E189-F623-238AB3197860"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B238FD5C-5823-973F-D1FE-FE37EB0B73FD" name="Trenira_Trener_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>474B02D2-474C-F139-29B0-24621951A231</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EC963E9-E70C-4C40-05F8-615C1C5D8E79"/>
+<colUsage columnID="97767D12-F14E-C70F-234D-5D0C58D841D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68E37432-DA74-AB00-FB2A-05A68300EFDF" name="Trenira_Tim_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>474B02D2-474C-F139-29B0-24621951A231</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B521D4C-ED2F-E189-F623-238AB3197860"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

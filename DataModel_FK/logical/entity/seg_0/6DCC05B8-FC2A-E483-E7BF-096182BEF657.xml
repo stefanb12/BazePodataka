@@ -4,7 +4,7 @@
 <createdTime>2021-01-14 00:26:18 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-01-14 00:46:16 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2021-01-14 00:46:55 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <createdTime>2021-01-14 00:47:07 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,13 +59,14 @@
 <createdTime>2021-01-14 00:47:34 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<dataTypeSize>15 CHAR</dataTypeSize>
-<domain>5E14E1E9-D8C5-A299-5798-48BD028A5CE8</domain>
-<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="EVBR_KLB" id="B6E7EC84-67E5-5D4C-0A7B-12017E7E8406">
 <createdBy>Stefan</createdBy>
@@ -73,14 +74,14 @@
 <generatorID>9E2F5FE9-100A-271B-9454-BBE4569F4401</generatorID>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <referedAttribute>83203FCC-F5CE-68BF-4F2A-581D62E3E1E7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -89,7 +90,7 @@
 <createdTime>2021-01-14 00:34:38 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

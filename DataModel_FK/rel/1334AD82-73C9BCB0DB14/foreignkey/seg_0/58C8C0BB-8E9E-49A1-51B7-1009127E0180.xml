@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58C8C0BB-8E9E-49A1-51B7-1009127E0180" containerWithKeyObject="F66D5336-35EC-5F79-FF8A-02FCAE78C81F" localFKIndex="8509D57B-2AB1-8BE7-8E26-670D5C1929C6" name="Ekonom_Zaposleni_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>08CE8727-9E3A-6F5B-CF2A-B00674B042D2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>764DF5FC-2503-18A2-7FC1-3EEF311481A4</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D6242DB-6E66-2FBD-D511-F79AA1133AD3</referredTableID>
+<keyObject>9A9F8DBA-98F7-1A83-1935-CC271AA2BCEB</keyObject>
+<referredKeyID>9A9F8DBA-98F7-1A83-1935-CC271AA2BCEB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MBR_ZAP,Fudbalski_klub_EVBR_KLB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

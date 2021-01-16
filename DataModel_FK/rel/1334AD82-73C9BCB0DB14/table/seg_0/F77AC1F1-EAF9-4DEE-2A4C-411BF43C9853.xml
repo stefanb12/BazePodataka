@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F77AC1F1-EAF9-4DEE-2A4C-411BF43C9853" name="Ugovor_igrača">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>32AD0B88-17E4-CCF1-019F-659080D86A33</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<ordsAlias>ugovor_igraca</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UG" id="D282E784-93EB-D337-3AD4-F2024B3E6F28">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>01FA1870-1EC1-D72A-9AAA-A888CA4405EB</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POČDAT_UG" id="2BDB3479-BB1E-2F1A-51C1-B1724EC306E1">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>34ADE17F-4526-9CA5-4FC6-CEAC5A6714D8</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRAJDAT_UG" id="57ACF1C4-433B-CBA0-1F28-FE2CCD771FC9">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>6B78BC59-7245-A435-9B7A-306F3A9D4D58</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBR_IGR" id="C00E6940-FCD3-E5A3-03FF-F4C3D88AF3CD">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>1D39625C-6AFD-5483-FFFE-FF87A8AF203D</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B294F91-EDF1-A44E-50C8-20D672348055" referredColumn="1A854B1E-6E90-E990-2DA1-26462A530E9C"/>
+</associations>
+</Column>
+<Column name="EVBR_KLB" id="D4A76D09-EA43-9002-4F2F-FC3D33364055">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>F6B2BB79-85A6-6756-C374-1E34133A5BA5</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EDF28FD-0A75-5B0E-1244-0C1CEE6EE0DD" referredColumn="D8C3727E-731C-8500-FD64-327EEB448FFE"/>
+</associations>
+</Column>
+<Column name="EVBR_TIM" id="8D9A4250-CCF6-FA5D-B4AB-BE8CCD4EC600">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>E4DDCFF7-F7E6-AE8E-E41F-AC7B224B4E59</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89459579-2A06-9625-AAAE-C5720D720B99" referredColumn="0339061C-40EB-1301-3AA0-DA55A7295BAA"/>
+</associations>
+</Column>
+<Column name="OZN_KAT" id="56935477-E3FA-8C3C-1111-F20846C1991D">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>5E4E7F88-5A02-5965-48A1-DCC2FD7B0797</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C232E082-2E4D-2CAE-A7E4-06875E7B65D1" referredColumn="E836D5EC-FB50-8EC6-C55B-9B4A1E0FFEB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F124F515-1E3A-050C-E04F-9E20898F2610" name="Ugovor_igrača_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>DC4C774A-497A-5B5B-9C0E-7A3FF60BF2F2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00E6940-FCD3-E5A3-03FF-F4C3D88AF3CD"/>
+<colUsage columnID="D282E784-93EB-D337-3AD4-F2024B3E6F28"/>
+<colUsage columnID="D4A76D09-EA43-9002-4F2F-FC3D33364055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7C415F3-EFF7-44CA-292B-D21F2CDD41BA" name="Ugovor_igrača_Tim_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>12651030-092A-6D4F-9555-AC4672644604</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D9A4250-CCF6-FA5D-B4AB-BE8CCD4EC600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4B9A5D4-661B-410B-467E-96002E1BE86A" name="Ugovor_igrača_Igrač_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>AA76BEB8-17CD-8311-4854-AC2767D3FA85</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00E6940-FCD3-E5A3-03FF-F4C3D88AF3CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5280F34-BEA4-AD36-51D5-98785199C3FC" name="Ugovor_igrača_Kategorija_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>81E870AC-1493-C0A9-4569-2CD055CD39CB</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56935477-E3FA-8C3C-1111-F20846C1991D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C9FC4D-F06E-21FD-5A37-F97B515ADCC4" name="Ugovor_igr_Fudbalski_klb_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>AEA25086-5379-FAF3-E253-E6ACC41ADB9C</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4A76D09-EA43-9002-4F2F-FC3D33364055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

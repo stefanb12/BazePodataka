@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F66D5336-35EC-5F79-FF8A-02FCAE78C81F" name="Ekonom">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>79F350BC-8B12-4EF5-028B-732F2864C356</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MBR_ZAP" id="BB4F661F-1C8B-4E0C-5F2A-8A2D4FB62F70">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>89EE34D8-71A6-4E07-477C-835FB9988020</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C8C0BB-8E9E-49A1-51B7-1009127E0180" referredColumn="473972B8-8AD1-0807-2C0D-BDC8CDC546B9"/>
+</associations>
+</Column>
+<Column name="OZN_STD" id="2931C2FE-75CC-A4F8-0D79-4AB777B1A730">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>9D4E6E39-2FC1-5D4D-FA56-572221C79D7F</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8D67561-CDAB-80B5-82C0-C459AB758DA0" referredColumn="144F0912-7969-492E-0D38-0B0837D81761"/>
+</associations>
+</Column>
+<Column name="EVBR_KLB" id="52706F33-9466-6393-4FD5-025D4F58826A">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>B6E7EC84-67E5-5D4C-0A7B-12017E7E8406</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C8C0BB-8E9E-49A1-51B7-1009127E0180" referredColumn="9AD79974-DDF1-CC2B-B44A-BC5F7F463DCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BB0DC92-30B3-736B-314F-8277737B959C" name="Ekonom_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>9767333F-20E9-372B-D537-85B4A16EA582</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4F661F-1C8B-4E0C-5F2A-8A2D4FB62F70"/>
+<colUsage columnID="52706F33-9466-6393-4FD5-025D4F58826A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8509D57B-2AB1-8BE7-8E26-670D5C1929C6" name="Ekonom_Zaposleni_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>08CE8727-9E3A-6F5B-CF2A-B00674B042D2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4F661F-1C8B-4E0C-5F2A-8A2D4FB62F70"/>
+<colUsage columnID="52706F33-9466-6393-4FD5-025D4F58826A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05F36C15-596A-1593-14A7-ABA188468B42" name="Ekonom_Stadion_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>077EF997-4E87-FD01-6A9D-F8BAAAB437C2</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2931C2FE-75CC-A4F8-0D79-4AB777B1A730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

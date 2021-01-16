@@ -4,7 +4,7 @@
 <createdTime>2021-01-14 00:26:55 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-01-14 01:06:52 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,20 +33,20 @@
 <createdTime>2021-01-14 01:07:07 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RANG_LIG" id="00035B01-46E0-BA9B-271B-064CE0510F60">
 <createdBy>Stefan</createdBy>
 <createdTime>2021-01-14 01:07:18 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,14 +60,14 @@
 <generatorID>3EE9FCD8-B0D0-FFD8-8C88-192727E73329</generatorID>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <referedAttribute>2C0540B1-B7BE-B45F-B6A9-52E7E374231A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -76,7 +76,7 @@
 <createdTime>2021-01-14 01:07:05 UTC</createdTime>
 <ownerDesignName>DataModel_FK</ownerDesignName>
 <engineerTo>
-<item key="30CD5B22-9866-3562-BDA8-CD4A6F170426" value="true"/>
+<item key="1334AD82-5EF0-2BB7-360D-73C9BCB0DB14" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

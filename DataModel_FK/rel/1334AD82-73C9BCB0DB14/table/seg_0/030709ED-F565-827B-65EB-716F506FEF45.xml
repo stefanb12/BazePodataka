@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="030709ED-F565-827B-65EB-716F506FEF45" name="Lečenje">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>EE23AB14-4036-AF23-D894-6492F2F3633C</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<ordsAlias>lecenje</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LEČ" id="916A8D0E-C8F6-2ECF-AEAA-9C67B8F72692">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>54E5794B-6FAF-291E-9D56-96F3E2D44700</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POČDAT_LEČ" id="542900BA-853B-966E-3C22-C81434E8C89A">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>9B253F68-208B-7481-680A-B59AC0AE7B98</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRAJDAT_LEČ" id="E49F1412-C2A8-AC5E-6DF7-25E9CCAEC752">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>EE0A8BE1-2F45-D9D4-595D-11D27133B876</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBR_IGR" id="84087AA1-4BC1-A9BF-B386-9C78B3274168">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>981F93E3-1002-1168-1776-C248D69D4F07</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E65F68AC-6417-8081-CE80-DC34D0FC1D2C" referredColumn="1A854B1E-6E90-E990-2DA1-26462A530E9C"/>
+</associations>
+</Column>
+<Column name="ID_POV" id="E08D55AD-A6C2-05C8-0F15-98BFA0565FBF">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>D540564F-49CF-E59D-DC19-32100592BE89</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5D5E66B-F7AF-9D90-6399-FA6046FD5982" referredColumn="78D42447-1295-F342-50ED-607AB89C8F0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EE1BB44-3287-CA80-3B98-8809B74ACA1C" name="Lečenje_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>70EA22EF-1DE1-35E1-E7A4-DE6838F8FBE1</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="916A8D0E-C8F6-2ECF-AEAA-9C67B8F72692"/>
+<colUsage columnID="84087AA1-4BC1-A9BF-B386-9C78B3274168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06C466FF-0D55-EE09-D536-1FEAC2638C01" name="Lečenje_Tip_povrede_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>F5CFDED7-AAE0-B300-F348-1DB8BEF2037B</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E08D55AD-A6C2-05C8-0F15-98BFA0565FBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4448D8AF-6F9D-42E9-C3D3-752E7C7E421E" name="Lečenje_Igrač_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2021-01-15 13:13:03 UTC</createdTime>
+<generatorID>72EE04FE-783C-AC05-DE10-C73394745332</generatorID>
+<ownerDesignName>DataModel_FK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84087AA1-4BC1-A9BF-B386-9C78B3274168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

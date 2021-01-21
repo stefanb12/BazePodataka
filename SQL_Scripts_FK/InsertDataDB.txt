@@ -1,0 +1,173 @@
+insert into fudbalski_klub values ('KLB1', 'Partizan', 'Beograd, Humska 1');
+insert into fudbalski_klub values ('KLB2', 'Crvena zvezda', 'Beograd, Ljutice Bogdana 1');
+insert into fudbalski_klub values ('KLB3', 'Vojvodina', 'Novi Sad, Dimitrija Tucovića 1');
+commit;
+
+insert into stadion values ('STD1', 'JNA', 'Beograd, Humska 1', 'KLB1');
+insert into stadion values ('STD2', 'Teleoptik', 'Zemun, Gundulićeva 116', 'KLB1');
+insert into stadion values ('STD3', 'Stadion Rajko Mitić', 'Beograd, Ljutice Bogdana 1', 'KLB2');
+insert into stadion values ('STD4', 'Kompleks stadiona', 'Beograd, Dunavska 37', 'KLB2');
+insert into stadion values ('STD5', 'Stadion Karađorđe', 'Novi Sad, Dimitrija Tucovića 3', 'KLB3');
+commit;
+
+insert into zaposleni values ('MBR1', 'Miloš', 'Petrović', 'Trener', 'KLB1');
+insert into zaposleni values ('MBR2', 'Dragan', 'Simić', 'Trener', 'KLB1');
+insert into zaposleni values ('MBR3', 'Jovan', 'Avramović', 'Trener', 'KLB1');
+insert into zaposleni values ('MBR4', 'Dragiša', 'Mašić', 'Trener', 'KLB1');
+insert into zaposleni values ('MBR5', 'Dragana', 'Ulemek', 'Lekar', 'KLB1');
+insert into zaposleni values ('MBR6', 'Milica', 'Petrović', 'Lekar', 'KLB1');
+insert into zaposleni values ('MBR7', 'Miloš', 'Trivić', 'Ekonom', 'KLB1');
+insert into zaposleni values ('MBR8', 'Stefan', 'Mitrović', 'Ekonom', 'KLB1');
+insert into zaposleni values ('MBR9', 'Uroš', 'Jovanović', 'Trener', 'KLB2');
+insert into zaposleni values ('MBR10', 'Petar', 'Simović', 'Trener', 'KLB2');
+insert into zaposleni values ('MBR11', 'Siniša', 'Stefanović', 'Trener', 'KLB2');
+insert into zaposleni values ('MBR12', 'Milan', 'Micić', 'Trener', 'KLB2');
+insert into zaposleni values ('MBR13', 'Marko', 'Dragutinović', 'Lekar', 'KLB2');
+insert into zaposleni values ('MBR14', 'Joviša', 'Avram', 'Lekar', 'KLB2');
+insert into zaposleni values ('MBR15', 'Nikola', 'Simić', 'Ekonom', 'KLB2');
+insert into zaposleni values ('MBR16', 'Predrag', 'Draganić', 'Ekonom', 'KLB2');
+insert into zaposleni values ('MBR17', 'Nenad', 'Stevanović', 'Trener', 'KLB3');
+insert into zaposleni values ('MBR18', 'Stefan', 'Lepšanović', 'Trener', 'KLB3');
+insert into zaposleni values ('MBR19', 'Milan', 'Ivanović', 'Trener', 'KLB3');
+insert into zaposleni values ('MBR20', 'Miloš', 'Pešić', 'Lekar', 'KLB3');
+insert into zaposleni values ('MBR21', 'Jovan', 'Dragutinović', 'Ekonom', 'KLB3');
+commit;
+
+insert into ekonom values ('MBR7', 'STD1', 'KLB1');
+insert into ekonom values ('MBR8', 'STD2', 'KLB1');
+insert into ekonom values ('MBR15', 'STD3', 'KLB2');
+insert into ekonom values ('MBR16', 'STD4', 'KLB2');
+insert into ekonom values ('MBR21', 'STD5', 'KLB3');
+commit;
+
+insert into lekar values ('MBR5', 'L12345', 'KLB1');
+insert into lekar values ('MBR6', 'L12344', 'KLB1');
+insert into lekar values ('MBR13', 'L12344', 'KLB2');
+insert into lekar values ('MBR14', 'L12342', 'KLB2');
+insert into lekar values ('MBR20', 'L12345', 'KLB3');
+commit;
+
+insert into trener values ('MBR1', 'L54321', 'KLB1');
+insert into trener values ('MBR2', 'L54322', 'KLB1');
+insert into trener values ('MBR3', 'L54323', 'KLB1');
+insert into trener values ('MBR4', 'L54321', 'KLB1');
+insert into trener values ('MBR9', 'L54322', 'KLB2');
+insert into trener values ('MBR10', 'L54323', 'KLB2');
+insert into trener values ('MBR11', 'L54321', 'KLB2');
+insert into trener values ('MBR12', 'L54322', 'KLB2');
+insert into trener values ('MBR17', 'L54323', 'KLB3');
+insert into trener values ('MBR18', 'L54321', 'KLB3');
+insert into trener values ('MBR19', 'L54321', 'KLB3');
+commit;
+
+insert into kategorija values ('KAT1', 'Prvi tim', 17, 40);
+insert into kategorija values ('KAT2', 'Omladinci', 14, 17);
+insert into kategorija values ('KAT3', 'Pioniri', 8, 14);
+commit;
+
+insert into igrač values ('MBR1', 'Dusan', 'Cvetković', to_date('31-01-1990', 'DD-MM-YYYY'));
+insert into igrač values ('MBR2', 'Miloš', 'Petrović', to_date('12-07-1987', 'DD-MM-YYYY'));
+insert into igrač values ('MBR3', 'Dragan', 'Simić', to_date('11-03-1993', 'DD-MM-YYYY'));
+insert into igrač values ('MBR4', 'Jovan', 'Avramović', to_date('10-02-1991', 'DD-MM-YYYY'));
+insert into igrač values ('MBR5', 'Miloš', 'Trivić', to_date('01-07-2000', 'DD-MM-YYYY'));
+insert into igrač values ('MBR6', 'Stefan', 'Mitrović', to_date('06-06-2002', 'DD-MM-YYYY'));
+insert into igrač values ('MBR7', 'Uroš', 'Jovanović', to_date('21-06-1999', 'DD-MM-YYYY'));
+insert into igrač values ('MBR8', 'Siniša', 'Stefanović', to_date('22-08-1999', 'DD-MM-YYYY'));
+insert into igrač values ('MBR9', 'Milan', 'Micić', to_date('21-09-1988', 'DD-MM-YYYY'));
+insert into igrač values ('MBR10', 'Marko', 'Dragutinović', to_date('21-07-1995', 'DD-MM-YYYY'));
+insert into igrač values ('MBR11', 'Joviša', 'Avram', to_date('15-10-1995', 'DD-MM-YYYY'));
+insert into igrač values ('MBR12', 'Nikola', 'Simić', to_date('16-07-2002', 'DD-MM-YYYY'));
+insert into igrač values ('MBR13', 'Predrag', 'Draganić', to_date('12-11-2003', 'DD-MM-YYYY'));
+insert into igrač values ('MBR14', 'Nenad', 'Stevanović', to_date('27-12-2000', 'DD-MM-YYYY'));
+insert into igrač values ('MBR15', 'Stefan', 'Lepšanović', to_date('11-12-1992', 'DD-MM-YYYY'));
+insert into igrač values ('MBR16', 'Miloš', 'Pešić', to_date('14-07-1992', 'DD-MM-YYYY'));
+insert into igrač values ('MBR17', 'Jovan', 'Dragutinović', to_date('11-07-1993', 'DD-MM-YYYY'));
+insert into igrač values ('MBR18', 'Dragiša', 'Mašić', to_date('21-05-1993', 'DD-MM-YYYY'));
+insert into igrač values ('MBR19', 'Petar', 'Simović', to_date('23-07-1995', 'DD-MM-YYYY'));
+insert into igrač values ('MBR20', 'Milan', 'Ivanović', to_date('30-05-1996', 'DD-MM-YYYY'));
+insert into igrač values ('MBR21', 'Jovan', 'Cvijić', to_date('12-07-1996', 'DD-MM-YYYY'));
+commit;
+
+insert into tim values ('TIM1', 'KLB1', 'KAT1');
+insert into tim values ('TIM2', 'KLB2', 'KAT1');
+insert into tim values ('TIM3', 'KLB3', 'KAT1');
+insert into tim values ('TIM4', 'KLB1', 'KAT2');
+insert into tim values ('TIM5', 'KLB2', 'KAT2');
+insert into tim values ('TIM6', 'KLB3', 'KAT2');
+commit;
+
+insert into liga values ('LIG1', 'Super liga srbije', 1, 'KAT1');
+insert into liga values ('LIG2', 'Prva liga Srbije', 2, 'KAT1');
+insert into liga values ('LIG3', 'Omladinska liga Srbije', 3, 'KAT2');
+insert into liga values ('LIG4', 'Pionirska liga Srbije', 4, 'KAT3');
+commit;
+
+insert into ugovor_igrača values (1, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR1', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (2, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR2', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (3, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR3', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (4, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR4', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (5, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR5', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (6, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR6', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (7, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR7', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (8, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR8', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (9, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR9', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (10, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR10', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (11, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR11', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (12, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR12', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (13, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR13', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (14, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR14', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (15, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR15', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (16, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR16', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (17, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR17', 'KLB2', 'TIM2', 'KAT1');
+insert into ugovor_igrača values (18, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR18', 'KLB3', 'TIM3', 'KAT1');
+insert into ugovor_igrača values (19, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR19', 'KLB1', 'TIM1', 'KAT1');
+insert into ugovor_igrača values (20, to_date('31-01-2017', 'DD-MM-YYYY'), to_date('31-01-2022', 'DD-MM-YYYY'), 'MBR20', 'KLB2', 'TIM2', 'KAT1');
+commit;
+
+insert into trenira values ('MBR1', 'KLB1', 'TIM1');
+insert into trenira values ('MBR2', 'KLB1', 'TIM1');
+insert into trenira values ('MBR3', 'KLB1', 'TIM1');
+insert into trenira values ('MBR4', 'KLB1', 'TIM4');
+insert into trenira values ('MBR9', 'KLB2', 'TIM2');
+insert into trenira values ('MBR10', 'KLB2', 'TIM2');
+insert into trenira values ('MBR11', 'KLB2', 'TIM2');
+insert into trenira values ('MBR12', 'KLB2', 'TIM5');
+insert into trenira values ('MBR17', 'KLB3', 'TIM3');
+insert into trenira values ('MBR18', 'KLB3', 'TIM3');
+insert into trenira values ('MBR19', 'KLB3', 'TIM6');
+commit;
+
+insert into učestvuje values ('TIM1', 'LIG1');
+insert into učestvuje values ('TIM2', 'LIG1');
+insert into učestvuje values ('TIM3', 'LIG1');
+insert into učestvuje values ('TIM4', 'LIG2');
+insert into učestvuje values ('TIM5', 'LIG2');
+insert into učestvuje values ('TIM6', 'LIG2');
+commit;
+
+insert into utakmica values ('UTK1', 3, to_date('02-08-2020 18:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG1', 'STD1', 3, 1, 'TIM1', 'TIM2');
+insert into utakmica values ('UTK2', 4, to_date('12-08-2020 18:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG1', 'STD3', 1, 1, 'TIM2', 'TIM3');
+insert into utakmica values ('UTK3', 5, to_date('18-08-2020 17:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG1', 'STD5', 2, 0, 'TIM3', 'TIM2');
+insert into utakmica values ('UTK4', 6, to_date('30-08-2020 17:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG1', 'STD1', 0, 1, 'TIM1', 'TIM3');
+insert into utakmica values ('UTK5', 7, to_date('04-09-2020 15:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG1', 'STD3', 0, 0, 'TIM2', 'TIM1');
+insert into utakmica values ('UTK6', 6, to_date('28-08-2020 13:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG2', 'STD2', 1, 1, 'TIM4', 'TIM6');
+insert into utakmica values ('UTK7', 7, to_date('03-09-2020 13:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG2', 'STD4', 2, 3, 'TIM5', 'TIM4');
+insert into utakmica values ('UTK8', 8, to_date('07-09-2020 14:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG2', 'STD4', 2, 2, 'TIM5', 'TIM6');
+insert into utakmica values ('UTK9', 9, to_date('13-09-2020 14:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG2', 'STD2', 3, 0, 'TIM4', 'TIM5');
+insert into utakmica values ('UTK10', 5, to_date('23-07-2020 14:00:00', 'DD-MM-YYYY hh24:mi:ss'), 'LIG2', 'STD5', 2, 0, 'TIM6', 'TIM5');
+commit;
+
+insert into tip_povrede values (1, 'Iščasenje noge');
+insert into tip_povrede values (2, 'Iščasenje zgloba');
+insert into tip_povrede values (3, 'Prelom ruke');
+commit;
+
+insert into lečenje values (1, to_date('04-07-2020', 'DD-MM-YYYY'), to_date('16-07-2020', 'DD-MM-YYYY'), 'MBR16', 1);
+insert into lečenje values (2, to_date('01-06-2020', 'DD-MM-YYYY'), to_date('05-06-2020', 'DD-MM-YYYY'), 'MBR17', 2);
+insert into lečenje values (3, to_date('12-07-2020', 'DD-MM-YYYY'), to_date('08-08-2020', 'DD-MM-YYYY'), 'MBR18', 3);
+commit;
+
+insert into leči values ('MBR6', 'KLB1', '1', 'MBR16');
+insert into leči values ('MBR13', 'KLB2', '2', 'MBR17');
+insert into leči values ('MBR20', 'KLB3', '3', 'MBR18');
+commit;

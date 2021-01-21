@@ -1,0 +1,37 @@
+-- Prikazati sve utakmice odigrane nakon 1. Avgusta 2020. godine i gde je postignut bar jedan gol na utakmici. 
+-- Za utakmice prikazati naziv lige, kategoriju, rang, redni broj kola utakmice, datum održavanja utakmice, stadion na kom se utakmica održava,
+-- naziv domaćeg tima, naziv gostujućeg tima, rezultat na utakmici i gol razliku. Podatke sortirati po rangu lige u rastućem redosledu.
+select LIG.naz_lig "Naziv lige", KAT.naz_kat "Kategorija", LIG.rang_lig "Rang lige", UTK.rbr_kola "Rbr. Kola", UTK.dat_utk "Datum utakmice", STD.naz_std "Stadion",
+       KLBD.naz_klb "Tim domaćin", KLBG.naz_klb "Tim gost", UTK.brgol_dom || ' : ' || UTK.brgol_gost "Rezultat", abs(UTK.brgol_dom - UTK.brgol_gost) "Gol razlika"
+from Utakmica UTK, Liga LIG, Stadion STD, Kategorija KAT, Fudbalski_klub KLBD, Fudbalski_klub KLBG, Tim TIMD, Tim TIMG, Učestvuje UČED, Učestvuje UČEG
+where UTK.ozn_lig = LIG.ozn_lig and UTK.ozn_std = STD.ozn_std and TIMD.ozn_kat = KAT.ozn_kat and TIMD.evbr_klb = KLBD.evbr_klb and UČED.evbr_tim = TIMD.evbr_tim and UTK.evbr_timd = UČED.evbr_tim and
+      TIMG.evbr_klb = KLBG.evbr_klb and UČEG.evbr_tim = TIMG.evbr_tim and UTK.evbr_timg = UČEG.evbr_tim and UTK.dat_utk >= to_date('01-08-2020', 'DD-MM-YYYY') and (UTK.brgol_dom > 0 or UTK.brgol_gost > 0)
+order by LIG.rang_lig asc;
+
+-- Pobednik domacin i gol razlika
+select LIG.naz_lig "Liga", UTK.rbr_kola "Br. Kola", UTK.dat_utk "Datum utakmice", STD.naz_std "Stadion", KLB.naz_klb "Pobednik", UTK.brgol_dom - UTK.brgol_gost "Gol razlika"
+from Utakmica UTK, Liga LIG, Stadion STD, Fudbalski_klub KLB, Učestvuje UČE, Tim TIM
+where UTK.ozn_lig = LIG.ozn_lig and UTK.ozn_std = STD.ozn_std and TIM.evbr_klb = KLB.evbr_klb and UČE.evbr_tim = TIM.evbr_tim and UTK.evbr_timd = UČE.evbr_tim and UTK.brgol_dom > UTK.brgol_gost;
+    
+-- Fudbalski timovi i njihovi treneri (Kategorija 1) 
+select KLB.evbr_klb, KLB.naz_klb "Tim", ZAP.ime_zap || ' ' || ZAP.prz_zap "Trener"
+from Fudbalski_klub KLB, Tim TIM, Trenira TRE, Trener TRN, Zaposleni ZAP
+where ZAP.evbr_klb = KLB.evbr_klb and TRN.mbr_zap = ZAP.mbr_zap and TRE.mbr_zap = TRN.mbr_zap and TRE.evbr_tim = TIM.evbr_tim and TIM.ozn_kat = 'KAT1'
+order by KLB.naz_klb asc;
+
+-- Timovi koji pripadaju Kategoriji 1
+select Tim.evbr_tim, KLB.naz_klb
+from  Tim TIM, Fudbalski_klub KLB 
+where KLB.evbr_klb = TIM.evbr_klb and TIM.ozn_kat = 'KAT1';
+
+-- Domaći timovi na utakmicama
+select UTK.ozn_utk, KLB.naz_klb "Tim domaćin", UTK.brgol_dom "Broj golova"
+from  Utakmica UTK, Učestvuje UČE, Tim TIM, Fudbalski_klub KLB
+where UTK.evbr_timd = UČE.evbr_tim  and UČE.evbr_tim = TIM.evbr_tim and TIM.evbr_klb = KLB.evbr_klb;
+
+-- Gostujući timovi na utakmicama
+select  UTK.ozn_utk, KLB.naz_klb "Tim gost", UTK.brgol_gost "Broj golova"
+from  Utakmica UTK, Učestvuje UČE, Tim TIM, Fudbalski_klub KLB  
+where UTK.evbr_timg = UČE.evbr_tim  and UČE.evbr_tim = TIM.evbr_tim and TIM.evbr_klb = KLB.evbr_klb;
+
+

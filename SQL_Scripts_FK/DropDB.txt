@@ -1,0 +1,33 @@
+DROP TABLE  ekonom cascade constraints;
+
+DROP TABLE fudbalski_klub cascade constraints;
+
+DROP TABLE igrač cascade constraints;
+
+DROP TABLE  kategorija cascade constraints;
+
+DROP TABLE lečenje cascade constraints; 
+
+DROP TABLE leči cascade constraints;
+
+DROP TABLE lekar cascade constraints;
+
+DROP TABLE liga cascade constraints;
+
+DROP TABLE stadion cascade constraints;
+
+DROP TABLE tim cascade constraints;
+
+DROP TABLE tip_povrede cascade constraints;
+
+DROP TABLE trener cascade constraints;
+
+DROP TABLE trenira cascade constraints;
+
+DROP TABLE učestvuje cascade constraints;
+
+DROP TABLE ugovor_igrača cascade constraints;
+
+DROP TABLE utakmica cascade constraints;
+
+DROP TABLE zaposleni cascade constraints;
